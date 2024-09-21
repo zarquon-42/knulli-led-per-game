@@ -9,7 +9,7 @@ leverages the LED Daemon from [chrizzo-hb](https://github.com/chrizzo-hb).
 Log into the device via ssh and execute the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/zarquon-42/knulli-led-per-game/refs/heads/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/zarquon-42/knulli-led-per-game/refs/heads/main/install.sh | bash
 ```
 
 ## Development Notea
