@@ -1,4 +1,4 @@
-# LED Settings per Game Proof of Concept (POC)
+# Per Game LED Settings
 
 This script leverages the LED Daemon from [chrizzo-hb](https://github.com/chrizzo-hb)
 to set the analog joystick LED on the Anbernic RG40XX series devices
