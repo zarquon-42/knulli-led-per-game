@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download generate scripts and set permissions
-echo "Downloading Scripts..."
+echo -n "Downloading Scripts..."
 curl \
     --silent \
     --location \
@@ -11,9 +11,18 @@ curl \
     --silent \
     https://raw.githubusercontent.com/zarquon-42/knulli-led-per-game/refs/heads/main/led_game_colour.sh \
     --output /userdata/system/scripts/led_game_colour.sh && \
-echo "Setting Permissions..." && \
+echo " Complete" && \
+echo -n "Setting Permissions..." && \
 chmod +x /opt/generate_game_colour.py && \
 chmod +x /userdata/system/scripts/led_game_colour.sh && \
-echo "Making changes permanent..." && \
+echo " Complete" && \
+echo -n "Making changes permanent..." && \
 batocera-save-overlay >/dev/null && \
-echo Done
+echo " Complete" && \
+echo "" && \
+echo "Starting a game should change the led to" && \
+echo "reflect the game art work." && \
+echo "" && \
+echo "You can manually edit the colours by editing" && \
+echo "or creating an .led file in the folder " && \
+echo "/userdata/roms/<system>/led folder"
