@@ -22,12 +22,13 @@ echo " Complete" && \
 echo "" && \
 echo "Installation Complete" && \
 echo "" && \
-echo "" && \
-echo "Notes:" && \
-echo "" && \
-echo "Starting a game should change the led to" && \
-echo "reflect the game art work." && \
-echo "" && \
-echo "You can manually edit the colours by editing" && \
-echo "or creating an .led file in the folder " && \
-echo "/userdata/roms/<system>/led folder"
+echo "
+Notes:
+
+Starting a game should change the led to
+reflect the game art work.
+
+You can manually edit the colours by editing
+or creating an .led file in the folder
+/userdata/roms/<system>/led folder
+"
