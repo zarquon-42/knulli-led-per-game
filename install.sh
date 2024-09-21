@@ -20,6 +20,11 @@ echo -n "Making changes permanent..." && \
 batocera-save-overlay >/dev/null && \
 echo " Complete" && \
 echo "" && \
+echo "Installation Complete" && \
+echo "" && \
+echo "" && \
+echo "Notes:" && \
+echo "" && \
 echo "Starting a game should change the led to" && \
 echo "reflect the game art work." && \
 echo "" && \
