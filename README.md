@@ -27,6 +27,14 @@ manually create the files.
 If the automatically created colour is not desired you can manually edit the
 `.led` file.
 
+## Uninstall
+
+Log into the device via ssh and execute the following command:
+
+```bash
+rm /userdata/system/scripts/led_game_colour.sh
+```
+
 ## Development Notes
 
 This uses the library `Pillow` and `numpy` which are already installed within
